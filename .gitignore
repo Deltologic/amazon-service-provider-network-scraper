@@ -1,0 +1,25 @@
+# .gitignore
+
+# Temporary files
+.#~
+*.*~
+~.#~
+/.#~
+.vscode*
+
+venv/
+
+# databases
+db.*
+*.sqlite3
+.idea/
+
+#keys
+secrets.json
+
+#Mac
+.DS_Store
+
+__pycache__/
+
+amazon_service_companies.xlsx
